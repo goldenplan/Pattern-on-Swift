@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StateMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qlH-bY-O7R">
+                                <rect key="frame" x="133" y="180" width="109.5" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJq-le-NZ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afe-pJ-cWf">
+                                        <rect key="frame" x="79.5" y="0.0" width="30" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="m50-qD-J5o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="MpZ-Fu-YzY">
+                                <rect key="frame" x="16" y="20" width="343" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Jb8-mI-7J8"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="rA2-ok-jl1">
+                                <rect key="frame" x="16" y="318" width="343" height="29"/>
+                                <segments>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                                <connections>
+                                    <action selector="stateSegmentsAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="6bH-Iu-s1p"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available States" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfJ-jG-Mxe">
+                                <rect key="frame" x="127.5" y="271" width="120.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-1Z-YTf">
+                                <rect key="frame" x="16" y="28" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lXB-7K-Qyc"/>
+                                    <constraint firstAttribute="width" secondItem="tPH-1Z-YTf" secondAttribute="height" multiplier="1:1" id="yfO-GJ-i3m"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fx-63-yx6">
+                                <rect key="frame" x="152" y="377" width="71" height="30"/>
+                                <state key="normal" title="Next state"/>
+                                <connections>
+                                    <action selector="nextStateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BLf-oF-MX9"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="40" translatesAutoresizingMaskIntoConstraints="NO" id="hSs-du-CTr">
+                                <rect key="frame" x="14" y="219" width="347" height="31"/>
+                                <connections>
+                                    <action selector="fuelValueSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="NsX-5j-ody"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hSs-du-CTr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="1Rr-4K-txA"/>
+                            <constraint firstItem="tPH-1Z-YTf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="1Sv-9N-see"/>
+                            <constraint firstItem="MpZ-Fu-YzY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4on-bL-BJV"/>
+                            <constraint firstItem="2fx-63-yx6" firstAttribute="centerX" secondItem="rA2-ok-jl1" secondAttribute="centerX" id="8EL-gB-Fn6"/>
+                            <constraint firstItem="cfJ-jG-Mxe" firstAttribute="top" secondItem="hSs-du-CTr" secondAttribute="bottom" constant="22" id="FU5-TH-0ul"/>
+                            <constraint firstItem="rA2-ok-jl1" firstAttribute="top" secondItem="cfJ-jG-Mxe" secondAttribute="bottom" constant="26.5" id="JRU-RY-nXO"/>
+                            <constraint firstItem="hSs-du-CTr" firstAttribute="top" secondItem="qlH-bY-O7R" secondAttribute="bottom" constant="19" id="K0r-dL-hce"/>
+                            <constraint firstItem="qlH-bY-O7R" firstAttribute="centerX" secondItem="MpZ-Fu-YzY" secondAttribute="centerX" id="KXE-Vy-lsW"/>
+                            <constraint firstItem="cfJ-jG-Mxe" firstAttribute="centerX" secondItem="hSs-du-CTr" secondAttribute="centerX" id="Vog-oZ-KKA"/>
+                            <constraint firstAttribute="trailing" secondItem="hSs-du-CTr" secondAttribute="trailing" constant="16" id="WoI-xy-iAG"/>
+                            <constraint firstItem="tPH-1Z-YTf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xe9-NF-UOR"/>
+                            <constraint firstItem="MpZ-Fu-YzY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YAq-Rd-2gw"/>
+                            <constraint firstItem="qlH-bY-O7R" firstAttribute="top" secondItem="MpZ-Fu-YzY" secondAttribute="bottom" constant="32" id="eW1-Oc-Zxo"/>
+                            <constraint firstItem="rA2-ok-jl1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hfe-7c-UCk"/>
+                            <constraint firstItem="2fx-63-yx6" firstAttribute="top" secondItem="rA2-ok-jl1" secondAttribute="bottom" constant="31" id="n8s-wu-t2r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MpZ-Fu-YzY" secondAttribute="trailing" id="piC-dn-Kk4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rA2-ok-jl1" secondAttribute="trailing" id="qVO-f4-YSC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fuelValueLabel" destination="afe-pJ-cWf" id="dhu-RH-1ab"/>
+                        <outlet property="fuelValueSliderLabel" destination="hSs-du-CTr" id="TRJ-bM-ryG"/>
+                        <outlet property="stateImageView" destination="tPH-1Z-YTf" id="24N-oq-fXt"/>
+                        <outlet property="stateSegments" destination="rA2-ok-jl1" id="vdc-tj-7me"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42.399999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" width="500" height="255"/>
+    </resources>
+</document>
