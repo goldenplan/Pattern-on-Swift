@@ -1,0 +1,18 @@
+//
+//  AbstractFacrory.swift
+//  StateMashine
+//
+//  Created by Snake on 14/07/2017.
+//  Copyright © 2017 Snake. All rights reserved.
+//
+
+import UIKit
+
+class AbstractFacrory: NSObject {
+
+    func create() -> AbstractProduct{
+        
+        return AbstractProduct(bottle: AbstractBottle(), water: AbstractWater())
+    }
+    
+}

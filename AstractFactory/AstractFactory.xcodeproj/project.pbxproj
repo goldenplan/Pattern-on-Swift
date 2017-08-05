@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66CDEDD1F19F67300E58A88 /* PepsiProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDEDC1F19F67300E58A88 /* PepsiProduct.swift */; };
+		F66CDEDF1F19F68900E58A88 /* ColaProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDEDE1F19F68900E58A88 /* ColaProduct.swift */; };
+		F66CDEE11F19F7DF00E58A88 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDEE01F19F7DF00E58A88 /* Client.swift */; };
+		F6B791CA1F18FC77001F3E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791C91F18FC77001F3E50 /* AppDelegate.swift */; };
+		F6B791CC1F18FC77001F3E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791CB1F18FC77001F3E50 /* ViewController.swift */; };
+		F6B791CF1F18FC77001F3E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B791CD1F18FC77001F3E50 /* Main.storyboard */; };
+		F6B791D11F18FC77001F3E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B791D01F18FC77001F3E50 /* Assets.xcassets */; };
+		F6B791D41F18FC77001F3E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B791D21F18FC77001F3E50 /* LaunchScreen.storyboard */; };
+		F6B791DF1F18FC77001F3E50 /* AstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791DE1F18FC77001F3E50 /* AstractFactoryTests.swift */; };
+		F6B791EA1F18FC77001F3E50 /* AstractFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791E91F18FC77001F3E50 /* AstractFactoryUITests.swift */; };
+		F6B792041F18FC87001F3E50 /* AbstractFacrory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791F81F18FC87001F3E50 /* AbstractFacrory.swift */; };
+		F6B792051F18FC87001F3E50 /* AbstractWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791F91F18FC87001F3E50 /* AbstractWater.swift */; };
+		F6B792061F18FC87001F3E50 /* AbstractBottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791FA1F18FC87001F3E50 /* AbstractBottle.swift */; };
+		F6B792081F18FC87001F3E50 /* PepsiFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791FC1F18FC87001F3E50 /* PepsiFactory.swift */; };
+		F6B792091F18FC87001F3E50 /* PepsiBottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791FD1F18FC87001F3E50 /* PepsiBottle.swift */; };
+		F6B7920A1F18FC87001F3E50 /* PepsiWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B791FE1F18FC87001F3E50 /* PepsiWater.swift */; };
+		F6B7920C1F18FC87001F3E50 /* ColaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B792001F18FC87001F3E50 /* ColaFactory.swift */; };
+		F6B7920D1F18FC87001F3E50 /* ColaBottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B792011F18FC87001F3E50 /* ColaBottle.swift */; };
+		F6B7920E1F18FC87001F3E50 /* ColaWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B792021F18FC87001F3E50 /* ColaWater.swift */; };
+		F6B792101F18FD63001F3E50 /* AbstractProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B7920F1F18FD63001F3E50 /* AbstractProduct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6B791DB1F18FC77001F3E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B791BE1F18FC77001F3E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B791C51F18FC77001F3E50;
+			remoteInfo = AstractFactory;
+		};
+		F6B791E61F18FC77001F3E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B791BE1F18FC77001F3E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B791C51F18FC77001F3E50;
+			remoteInfo = AstractFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F66CDEDC1F19F67300E58A88 /* PepsiProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PepsiProduct.swift; sourceTree = "<group>"; };
+		F66CDEDE1F19F68900E58A88 /* ColaProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColaProduct.swift; sourceTree = "<group>"; };
+		F66CDEE01F19F7DF00E58A88 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		F6B791C61F18FC77001F3E50 /* AstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B791C91F18FC77001F3E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6B791CB1F18FC77001F3E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6B791CE1F18FC77001F3E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6B791D01F18FC77001F3E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6B791D31F18FC77001F3E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6B791D51F18FC77001F3E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B791DA1F18FC77001F3E50 /* AstractFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstractFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B791DE1F18FC77001F3E50 /* AstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstractFactoryTests.swift; sourceTree = "<group>"; };
+		F6B791E01F18FC77001F3E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B791E51F18FC77001F3E50 /* AstractFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstractFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B791E91F18FC77001F3E50 /* AstractFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstractFactoryUITests.swift; sourceTree = "<group>"; };
+		F6B791EB1F18FC77001F3E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B791F81F18FC87001F3E50 /* AbstractFacrory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFacrory.swift; sourceTree = "<group>"; };
+		F6B791F91F18FC87001F3E50 /* AbstractWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractWater.swift; sourceTree = "<group>"; };
+		F6B791FA1F18FC87001F3E50 /* AbstractBottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractBottle.swift; sourceTree = "<group>"; };
+		F6B791FC1F18FC87001F3E50 /* PepsiFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PepsiFactory.swift; sourceTree = "<group>"; };
+		F6B791FD1F18FC87001F3E50 /* PepsiBottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PepsiBottle.swift; sourceTree = "<group>"; };
+		F6B791FE1F18FC87001F3E50 /* PepsiWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PepsiWater.swift; sourceTree = "<group>"; };
+		F6B792001F18FC87001F3E50 /* ColaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColaFactory.swift; sourceTree = "<group>"; };
+		F6B792011F18FC87001F3E50 /* ColaBottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColaBottle.swift; sourceTree = "<group>"; };
+		F6B792021F18FC87001F3E50 /* ColaWater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColaWater.swift; sourceTree = "<group>"; };
+		F6B7920F1F18FD63001F3E50 /* AbstractProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractProduct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6B791C31F18FC77001F3E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791D71F18FC77001F3E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791E21F18FC77001F3E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6B791BD1F18FC77001F3E50 = {
+			isa = PBXGroup;
+			children = (
+				F6B791C81F18FC77001F3E50 /* AstractFactory */,
+				F6B791DD1F18FC77001F3E50 /* AstractFactoryTests */,
+				F6B791E81F18FC77001F3E50 /* AstractFactoryUITests */,
+				F6B791C71F18FC77001F3E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6B791C71F18FC77001F3E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791C61F18FC77001F3E50 /* AstractFactory.app */,
+				F6B791DA1F18FC77001F3E50 /* AstractFactoryTests.xctest */,
+				F6B791E51F18FC77001F3E50 /* AstractFactoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B791C81F18FC77001F3E50 /* AstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791C91F18FC77001F3E50 /* AppDelegate.swift */,
+				F6B791CB1F18FC77001F3E50 /* ViewController.swift */,
+				F66CDEE01F19F7DF00E58A88 /* Client.swift */,
+				F6B791CD1F18FC77001F3E50 /* Main.storyboard */,
+				F6B791D01F18FC77001F3E50 /* Assets.xcassets */,
+				F6B792111F18FEB8001F3E50 /* Abstract */,
+				F6B792121F18FEC7001F3E50 /* Pepsi */,
+				F6B792131F18FECE001F3E50 /* Cola */,
+				F6B791D21F18FC77001F3E50 /* LaunchScreen.storyboard */,
+				F6B791D51F18FC77001F3E50 /* Info.plist */,
+			);
+			path = AstractFactory;
+			sourceTree = "<group>";
+		};
+		F6B791DD1F18FC77001F3E50 /* AstractFactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791DE1F18FC77001F3E50 /* AstractFactoryTests.swift */,
+				F6B791E01F18FC77001F3E50 /* Info.plist */,
+			);
+			path = AstractFactoryTests;
+			sourceTree = "<group>";
+		};
+		F6B791E81F18FC77001F3E50 /* AstractFactoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791E91F18FC77001F3E50 /* AstractFactoryUITests.swift */,
+				F6B791EB1F18FC77001F3E50 /* Info.plist */,
+			);
+			path = AstractFactoryUITests;
+			sourceTree = "<group>";
+		};
+		F6B792111F18FEB8001F3E50 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791F81F18FC87001F3E50 /* AbstractFacrory.swift */,
+				F6B7920F1F18FD63001F3E50 /* AbstractProduct.swift */,
+				F6B791FA1F18FC87001F3E50 /* AbstractBottle.swift */,
+				F6B791F91F18FC87001F3E50 /* AbstractWater.swift */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		F6B792121F18FEC7001F3E50 /* Pepsi */ = {
+			isa = PBXGroup;
+			children = (
+				F6B791FC1F18FC87001F3E50 /* PepsiFactory.swift */,
+				F66CDEDC1F19F67300E58A88 /* PepsiProduct.swift */,
+				F6B791FD1F18FC87001F3E50 /* PepsiBottle.swift */,
+				F6B791FE1F18FC87001F3E50 /* PepsiWater.swift */,
+			);
+			name = Pepsi;
+			sourceTree = "<group>";
+		};
+		F6B792131F18FECE001F3E50 /* Cola */ = {
+			isa = PBXGroup;
+			children = (
+				F6B792001F18FC87001F3E50 /* ColaFactory.swift */,
+				F66CDEDE1F19F68900E58A88 /* ColaProduct.swift */,
+				F6B792011F18FC87001F3E50 /* ColaBottle.swift */,
+				F6B792021F18FC87001F3E50 /* ColaWater.swift */,
+			);
+			name = Cola;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6B791C51F18FC77001F3E50 /* AstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B791EE1F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactory" */;
+			buildPhases = (
+				F6B791C21F18FC77001F3E50 /* Sources */,
+				F6B791C31F18FC77001F3E50 /* Frameworks */,
+				F6B791C41F18FC77001F3E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstractFactory;
+			productName = AstractFactory;
+			productReference = F6B791C61F18FC77001F3E50 /* AstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6B791D91F18FC77001F3E50 /* AstractFactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B791F11F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactoryTests" */;
+			buildPhases = (
+				F6B791D61F18FC77001F3E50 /* Sources */,
+				F6B791D71F18FC77001F3E50 /* Frameworks */,
+				F6B791D81F18FC77001F3E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B791DC1F18FC77001F3E50 /* PBXTargetDependency */,
+			);
+			name = AstractFactoryTests;
+			productName = AstractFactoryTests;
+			productReference = F6B791DA1F18FC77001F3E50 /* AstractFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6B791E41F18FC77001F3E50 /* AstractFactoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B791F41F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactoryUITests" */;
+			buildPhases = (
+				F6B791E11F18FC77001F3E50 /* Sources */,
+				F6B791E21F18FC77001F3E50 /* Frameworks */,
+				F6B791E31F18FC77001F3E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B791E71F18FC77001F3E50 /* PBXTargetDependency */,
+			);
+			name = AstractFactoryUITests;
+			productName = AstractFactoryUITests;
+			productReference = F6B791E51F18FC77001F3E50 /* AstractFactoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6B791BE1F18FC77001F3E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Snake;
+				TargetAttributes = {
+					F6B791C51F18FC77001F3E50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K7N26A7XC9;
+						ProvisioningStyle = Automatic;
+					};
+					F6B791D91F18FC77001F3E50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K7N26A7XC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6B791C51F18FC77001F3E50;
+					};
+					F6B791E41F18FC77001F3E50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K7N26A7XC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6B791C51F18FC77001F3E50;
+					};
+				};
+			};
+			buildConfigurationList = F6B791C11F18FC77001F3E50 /* Build configuration list for PBXProject "AstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6B791BD1F18FC77001F3E50;
+			productRefGroup = F6B791C71F18FC77001F3E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B791C51F18FC77001F3E50 /* AstractFactory */,
+				F6B791D91F18FC77001F3E50 /* AstractFactoryTests */,
+				F6B791E41F18FC77001F3E50 /* AstractFactoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6B791C41F18FC77001F3E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B791D41F18FC77001F3E50 /* LaunchScreen.storyboard in Resources */,
+				F6B791D11F18FC77001F3E50 /* Assets.xcassets in Resources */,
+				F6B791CF1F18FC77001F3E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791D81F18FC77001F3E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791E31F18FC77001F3E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6B791C21F18FC77001F3E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66CDEDF1F19F68900E58A88 /* ColaProduct.swift in Sources */,
+				F6B792081F18FC87001F3E50 /* PepsiFactory.swift in Sources */,
+				F6B791CC1F18FC77001F3E50 /* ViewController.swift in Sources */,
+				F6B7920D1F18FC87001F3E50 /* ColaBottle.swift in Sources */,
+				F6B792051F18FC87001F3E50 /* AbstractWater.swift in Sources */,
+				F6B792091F18FC87001F3E50 /* PepsiBottle.swift in Sources */,
+				F6B7920C1F18FC87001F3E50 /* ColaFactory.swift in Sources */,
+				F6B792061F18FC87001F3E50 /* AbstractBottle.swift in Sources */,
+				F66CDEE11F19F7DF00E58A88 /* Client.swift in Sources */,
+				F6B792041F18FC87001F3E50 /* AbstractFacrory.swift in Sources */,
+				F66CDEDD1F19F67300E58A88 /* PepsiProduct.swift in Sources */,
+				F6B791CA1F18FC77001F3E50 /* AppDelegate.swift in Sources */,
+				F6B792101F18FD63001F3E50 /* AbstractProduct.swift in Sources */,
+				F6B7920A1F18FC87001F3E50 /* PepsiWater.swift in Sources */,
+				F6B7920E1F18FC87001F3E50 /* ColaWater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791D61F18FC77001F3E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B791DF1F18FC77001F3E50 /* AstractFactoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B791E11F18FC77001F3E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B791EA1F18FC77001F3E50 /* AstractFactoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6B791DC1F18FC77001F3E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B791C51F18FC77001F3E50 /* AstractFactory */;
+			targetProxy = F6B791DB1F18FC77001F3E50 /* PBXContainerItemProxy */;
+		};
+		F6B791E71F18FC77001F3E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B791C51F18FC77001F3E50 /* AstractFactory */;
+			targetProxy = F6B791E61F18FC77001F3E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6B791CD1F18FC77001F3E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B791CE1F18FC77001F3E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6B791D21F18FC77001F3E50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B791D31F18FC77001F3E50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6B791EC1F18FC77001F3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6B791ED1F18FC77001F3E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6B791EF1F18FC77001F3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F6B791F01F18FC77001F3E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F6B791F21F18FC77001F3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstractFactory.app/AstractFactory";
+			};
+			name = Debug;
+		};
+		F6B791F31F18FC77001F3E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstractFactory.app/AstractFactory";
+			};
+			name = Release;
+		};
+		F6B791F51F18FC77001F3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AstractFactory;
+			};
+			name = Debug;
+		};
+		F6B791F61F18FC77001F3E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K7N26A7XC9;
+				INFOPLIST_FILE = AstractFactoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = overinet.AstractFactoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AstractFactory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6B791C11F18FC77001F3E50 /* Build configuration list for PBXProject "AstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B791EC1F18FC77001F3E50 /* Debug */,
+				F6B791ED1F18FC77001F3E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B791EE1F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B791EF1F18FC77001F3E50 /* Debug */,
+				F6B791F01F18FC77001F3E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B791F11F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B791F21F18FC77001F3E50 /* Debug */,
+				F6B791F31F18FC77001F3E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B791F41F18FC77001F3E50 /* Build configuration list for PBXNativeTarget "AstractFactoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B791F51F18FC77001F3E50 /* Debug */,
+				F6B791F61F18FC77001F3E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6B791BE1F18FC77001F3E50 /* Project object */;
+}

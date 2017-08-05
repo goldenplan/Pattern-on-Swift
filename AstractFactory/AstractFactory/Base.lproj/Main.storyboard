@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AstractFactory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wRK-1C-Sg0"/>
+                        <viewControllerLayoutGuide type="bottom" id="JAR-gn-u4r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pWH-CL-kwV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNE-Bd-03f">
+                                <rect key="frame" x="137" y="28" width="101" height="30"/>
+                                <state key="normal" title="Создать Pepsi"/>
+                                <connections>
+                                    <action selector="pepsiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zyf-pZ-1qH"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fB5-lJ-uAR">
+                                <rect key="frame" x="0.0" y="104" width="375" height="563"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ProductCell" textLabel="7lh-Kr-Pj7" detailTextLabel="bst-Q0-nMG" style="IBUITableViewCellStyleSubtitle" id="laB-v6-n7R">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="laB-v6-n7R" id="IU1-xy-Pd2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7lh-Kr-Pj7">
+                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bst-Q0-nMG">
+                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xw-Lz-ZOh">
+                                <rect key="frame" x="119" y="66" width="136" height="30"/>
+                                <state key="normal" title="Создать Coca-Cola"/>
+                                <connections>
+                                    <action selector="colaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKl-N2-FGE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qNE-Bd-03f" firstAttribute="top" secondItem="wRK-1C-Sg0" secondAttribute="bottom" constant="8" id="EPb-FO-eoC"/>
+                            <constraint firstAttribute="trailing" secondItem="fB5-lJ-uAR" secondAttribute="trailing" id="OML-5Y-NEx"/>
+                            <constraint firstItem="7Xw-Lz-ZOh" firstAttribute="top" secondItem="qNE-Bd-03f" secondAttribute="bottom" constant="8" id="UCR-s8-WML"/>
+                            <constraint firstItem="fB5-lJ-uAR" firstAttribute="top" secondItem="7Xw-Lz-ZOh" secondAttribute="bottom" constant="8" id="Ybp-LX-Uos"/>
+                            <constraint firstItem="qNE-Bd-03f" firstAttribute="centerX" secondItem="pWH-CL-kwV" secondAttribute="centerX" id="lh9-af-qbT"/>
+                            <constraint firstItem="fB5-lJ-uAR" firstAttribute="leading" secondItem="pWH-CL-kwV" secondAttribute="leading" id="lmp-7i-mgB"/>
+                            <constraint firstItem="JAR-gn-u4r" firstAttribute="top" secondItem="fB5-lJ-uAR" secondAttribute="bottom" id="lxs-oA-a7X"/>
+                            <constraint firstItem="7Xw-Lz-ZOh" firstAttribute="centerX" secondItem="qNE-Bd-03f" secondAttribute="centerX" id="mha-bX-LZn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="fB5-lJ-uAR" id="kCk-49-o89"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
